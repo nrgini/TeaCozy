@@ -37,9 +37,12 @@ header {
   margin: 20px 50px 0px 0px;
  }
 
+/*Mission container*/
 .outer-container{
   display: flex;
   justify-content: center;
+  margin-top: 111px;
+  margin-bottom: 30px;
 }
 
 .mission-container {
@@ -50,10 +53,57 @@ header {
   background-repeat: no-repeat;
   height: 700px;
   width: 1000px;
-  margin-top: 110px;
 }
 
 .mission {
+  background-color: black;
+  align-items: center;
+}
+
+/*TeaMonth container*/
+
+.feature-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.feature-headline {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.feature {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  width: 1200px;
+}
+
+.tea {
+  margin: 10px;
+}
+
+/*location container*/
+
+.location-outer {
+  display: flex;
+  justify-content: center;
+
+}
+
+.location-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  background-repeat: no-repeat;
+  height: 500px;
+  width: 1000px;
+}
+
+.location {
   background-color: black;
   align-items: center;
 }

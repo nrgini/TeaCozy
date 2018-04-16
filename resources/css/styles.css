@@ -2,7 +2,7 @@ body {
   font-family: Helvetica, sans-serif;
   font-size: 22px;
   color: seashell;
-  background-color: rgba(0, 0, 0, 0.9);
+  background-color: rgba(0, 0, 0, 1);
   text-align: center;
 }
 
@@ -104,14 +104,19 @@ header {
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
   height: 500px;
   width: 1200px;
+  margin-top: 30px;
 }
 
 .location-title {
+  display: flex;
+  justify-content: center;
   align-items: center;
+  width: 100%;
 }
 
 .locations-inner {
@@ -129,4 +134,18 @@ header {
   width: 300px;
   height: 300px;
   margin: 20px;
+}
+
+/*footer*/
+
+.footer-info {
+  padding-top: 20px;
+  background-color: black;
+  height: 200px;
+}
+
+.footer-copyright {
+ padding-left: 20px;
+ text-align: left;
+ background-color: black;
 }

@@ -13,6 +13,7 @@ h2 {
 h3 {
   font-size: 24px;
 }
+
  h5 {
    font-size: 14px;
  }
@@ -68,7 +69,6 @@ header {
 }
 
 /*TeaMonth container*/
-
 .feature-container {
   display: flex;
   justify-content: center;
@@ -93,7 +93,6 @@ header {
 }
 
 /*location container*/
-
 .location-outer {
   display: flex;
   justify-content: center;
@@ -137,15 +136,12 @@ header {
 }
 
 /*footer*/
-
 .footer-info {
   padding-top: 20px;
-  background-color: black;
   height: 200px;
 }
 
 .footer-copyright {
  padding-left: 20px;
  text-align: left;
- background-color: black;
 }

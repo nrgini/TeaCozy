@@ -100,10 +100,13 @@ header {
   align-items: center;
 }
 
-.location-container {
+.flex-container {
   display: flex;
   justify-content: center;
   align-items: center;
+}
+
+.location-container {
   flex-direction: column;
   background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
   background-repeat: no-repeat;
@@ -113,9 +116,6 @@ header {
 }
 
 .location-title {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   width: 100%;
 }
 
@@ -126,9 +126,6 @@ header {
 }
 
 .locations {
-  display: flex;
-  justify-content: center;
-  align-items: center;
   flex-direction: column;
   width: 300px;
   height: 300px;
